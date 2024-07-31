@@ -2,7 +2,6 @@
 
 n = int(input("Enter the number: "))
 
-
 def factorial():
     fact = 1
     for i in range(1, n+1):
@@ -19,11 +18,13 @@ print(factorial())
 ##### My Approach -- 30th July -- 9:38 PM --- While loop
 
 
-# n = int(input("Enter the number: "))
+n = int(input("Enter the number: "))
 
 
 def factorial():
     n = int(input("Enter the number: "))
+
+    global n ## either this or use the above line
 
     fact = 1
     while n >= 1:
