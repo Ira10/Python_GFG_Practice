@@ -52,8 +52,10 @@ print(palindrome(121))
 
 # print(1258//10)
 
+############ krish naik sol
 
-
+def is_palindrome(word):
+    return word == word[::-1]
 
 
 
